@@ -23,4 +23,4 @@
 
 ## Grasshopper Component Example
 
-<img src = "https://github.com/KIMGEONUNG/PhysicsEngineSharp/blob/master/Materials/tmp.png" width = "700">
+<img src = "https://github.com/KIMGEONUNG/PhysicsEngineSharp/blob/master/Materials/grasshopper.png" width = "700">
