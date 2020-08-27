@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysicsGraph
+namespace Physics
 {
     /// <summary>
     /// vertex of graph data structure

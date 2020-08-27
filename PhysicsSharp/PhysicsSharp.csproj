@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DA955A4D-EBBA-424E-BFA5-2A11E62A868F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PhysicsGraph</RootNamespace>
-    <AssemblyName>PhysicsGraph</AssemblyName>
+    <RootNamespace>Physics</RootNamespace>
+    <AssemblyName>Physics</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PhysicsNetwork.cs" />
+    <Compile Include="PhysicsGraph.cs" />
     <Compile Include="Point3d.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

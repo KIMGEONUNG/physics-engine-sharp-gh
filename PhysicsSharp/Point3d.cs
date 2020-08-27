@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysicsGraph
+namespace Physics
 {
     public struct Point3d
     {

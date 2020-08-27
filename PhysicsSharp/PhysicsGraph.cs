@@ -5,13 +5,13 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysicsGraph
+namespace Physics
 {
     /// <summary>
     /// Special case of graph data structure. 
     /// Represenation is Adjacent list
     /// </summary>
-    public class PhysicsNetwork
+    public class PhysicsGraph
     {
         /// <summary>
         /// Spring constant in Hook's law
@@ -35,7 +35,7 @@ namespace PhysicsGraph
 
         private Vertex[] Vertices;
         private Spring[] Springs;
-        public PhysicsNetwork(IEnumerable<Vertex> vertices, IEnumerable<Spring> springs)
+        public PhysicsGraph(IEnumerable<Vertex> vertices, IEnumerable<Spring> springs)
         {
             Vertices = vertices.ToArray();
             Springs = springs.ToArray();

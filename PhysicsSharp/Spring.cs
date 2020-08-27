@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysicsGraph
+namespace Physics
 {
     /// <summary>
     /// Edge of graph data structure 

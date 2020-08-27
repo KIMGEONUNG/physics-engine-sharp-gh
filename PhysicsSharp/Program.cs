@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysicsGraph
+namespace Physics
 {
     class Program
     {
@@ -41,7 +41,7 @@ namespace PhysicsGraph
             //        new Spring(1,2,len),
             //    };
 
-            PhysicsNetwork graph = new PhysicsNetwork(vs, sp);
+            PhysicsGraph graph = new PhysicsGraph(vs, sp);
             for (int i = 0; i < 100; i++)
             {
                 graph.EstimateForce();
